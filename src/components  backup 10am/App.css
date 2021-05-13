@@ -1,7 +1,22 @@
-.App {
-  text-align: center;
+.App{
+  display: flex
 }
 
+.tasksContainer{
+  padding: 2rem 1rem;
+  width:60%;
+  flex-direction: column;
+  background-color: #61dafb;
+  margin-left: 15%;
+  margin-left: 15%;
+
+
+}
+.task{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 10%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
